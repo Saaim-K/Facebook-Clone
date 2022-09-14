@@ -2,3 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
+.titleBar {
+  background-color: #242526 ;
+}
+
+.logo {}
+
+.fblogo {
+  width: 65px;
+}

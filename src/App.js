@@ -4,9 +4,7 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-      <h1>saaim</h1>
-
-      <Navbar />
+      <Navbar logo='https://brandlogos.net/wp-content/uploads/2021/04/facebook-icon.png' search='' profile='sasasas' />
     </>
   );
 }
