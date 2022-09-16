@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +9,8 @@
 
 .titleBar {
   background-color: #242526;
-  border-top :1px solid grey;
-  border-bottom :1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
   position: sticky;
   top: 0;
 }
@@ -20,21 +21,26 @@
   padding-left: 10px;
 }
 
-  .fblogo {
-    width: 55px;
-  }
+.fblogo {
+  width: 55px;
+}
 
 .fb-search input {
   height: 40px;
   border-radius: 20px;
   border: none;
   width: 200px;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   background-color: #3A3B3C;
   padding-left: 10px;
   border: none;
 }
-.fb-search input:focus{
+
+.fb-search input:focus {
   outline: none;
+}
+
+.home,.profile{
+  font-size: 30px;
 }
