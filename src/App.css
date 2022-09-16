@@ -13,6 +13,8 @@
   border-bottom: 1px solid grey;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
   position: sticky;
   top: 0;
 }
