@@ -12,13 +12,13 @@
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   display: flex;
-  
   align-items: center;
   justify-content: space-between;
   width: 100%;
   position: sticky;
   top: 0;
 }
+
 .tab {
   display: flex;
   width: 500px;
@@ -35,7 +35,6 @@
   font-size: 25px;
   width: 200px;
 }
-
 
 .logo {
   display: flex;
@@ -60,8 +59,4 @@
 
 .fb-search input:focus {
   outline: none;
-}
-
-.tab,.profile{
-  display: flex;
 }
