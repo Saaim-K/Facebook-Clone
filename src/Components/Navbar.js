@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiFillHome } from "react-icons/ai";
 
 export default function Navbar(props) {
     return (
@@ -9,7 +10,7 @@ export default function Navbar(props) {
                     <div className="fb-search"><input type="text" name="search" placeholder='Search Facebook' autoComplete='off' /></div>
                 </div>
                 <div className="home">
-                    <div className='navabr'>{props.search}</div>
+                    <div className='navbar'><AiFillHome /></div>
                 </div>
                 <div className='profile'>{props.profile}</div>
 
