@@ -11,7 +11,6 @@ function App() {
 }
 Navbar.prototype = {
   logo: PropTypes.string
-
 }
 
 export default App;
