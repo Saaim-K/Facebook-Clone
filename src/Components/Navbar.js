@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillHome } from "react-icons/ai";
-import { FaPlay, FaUserCircle } from "react-icons/fa";
+import { FaPlay, FaUserCircle, FaRegSun } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi";
 import { SiFacebookgaming } from "react-icons/si";
 import { BsFillGrid3X3GapFill, BsMessenger } from "react-icons/bs";
@@ -22,7 +22,8 @@ export default function Navbar(props) {
                     <div><SiFacebookgaming /></div>
                 </div>
                 <div className='profile'>
-                    <div><BsFillGrid3X3GapFill /></div>
+                    {/* <div><BsFillGrid3X3GapFill /></div> */}
+                    <div><FaRegSun /></div>
                     <div><BsMessenger /></div>
                     <div><MdNotificationsActive /></div>
                     <div><FaUserCircle /></div>

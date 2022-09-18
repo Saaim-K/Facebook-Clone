@@ -49,14 +49,15 @@
   width: 500px;
   justify-content: space-between;
   align-items: center;
-  margin-left: -10%;
-  font-size: 25px;
+  margin-left: -5%;
+  font-size: 23px;
 }
 
 .profile {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 25px;
+  font-size: 23px;
+  margin-right: 20px;
   width: 200px;
 }
