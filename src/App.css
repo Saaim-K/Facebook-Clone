@@ -6,6 +6,7 @@
   color: white;
   font-family: 'Quicksand', sans-serif;
 }
+
 .titleBar {
   background-color: #242526;
   border-top: 1px solid grey;
@@ -17,11 +18,13 @@
   position: sticky;
   top: 0;
 }
+
 .logo {
   display: flex;
   align-items: center;
   padding-left: 10px;
 }
+
 .fblogo {
   width: 55px;
 }
@@ -57,5 +60,3 @@
   font-size: 25px;
   width: 200px;
 }
-
-

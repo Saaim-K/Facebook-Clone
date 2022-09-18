@@ -22,11 +22,10 @@ export default function Navbar(props) {
                     <div><SiFacebookgaming /></div>
                 </div>
                 <div className='profile'>
-                    <div className="profile1"><BsFillGrid3X3GapFill /></div>
-                    <div className="profile1"><BsMessenger /></div>
-                    <div className="profile1"><MdNotificationsActive /></div>
-                    <div className="profile1"><FaUserCircle /></div>
-
+                    <div><BsFillGrid3X3GapFill /></div>
+                    <div><BsMessenger /></div>
+                    <div><MdNotificationsActive /></div>
+                    <div><FaUserCircle /></div>
                 </div>
 
 
