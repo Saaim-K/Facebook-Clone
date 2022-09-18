@@ -17,30 +17,11 @@
   position: sticky;
   top: 0;
 }
-
-.tab {
-  display: flex;
-  width: 500px;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: -10%;
-  font-size: 25px;
-}
-
-.profile {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 25px;
-  width: 200px;
-}
-
 .logo {
   display: flex;
   align-items: center;
   padding-left: 10px;
 }
-
 .fblogo {
   width: 55px;
 }
@@ -59,3 +40,22 @@
 .fb-search input:focus {
   outline: none;
 }
+
+.tab {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -10%;
+  font-size: 25px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  width: 200px;
+}
+
+

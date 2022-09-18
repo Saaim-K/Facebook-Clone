@@ -6,6 +6,7 @@ import { SiFacebookgaming } from "react-icons/si";
 import { BsFillGrid3X3GapFill, BsMessenger } from "react-icons/bs";
 import { MdNotificationsActive } from "react-icons/md";
 
+
 export default function Navbar(props) {
     return (
         <>
@@ -15,10 +16,10 @@ export default function Navbar(props) {
                     <div className="fb-search"><input type="text" name="search" placeholder='Search Facebook' autoComplete='off' /></div>
                 </div>
                 <div className="tab">
-                    <div className='home'><AiFillHome /></div>
-                    <div className='home'><FaPlay /></div>
-                    <div className='home'><HiUserGroup /></div>
-                    <div className='home'><SiFacebookgaming /></div>
+                    <div><AiFillHome /></div>
+                    <div><FaPlay /></div>
+                    <div><HiUserGroup /></div>
+                    <div><SiFacebookgaming /></div>
                 </div>
                 <div className='profile'>
                     <div className="profile1"><BsFillGrid3X3GapFill /></div>
