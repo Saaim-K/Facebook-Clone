@@ -16,7 +16,7 @@ export default function Navbar(props) {
                     <div className="fb-search"><input type="text" name="search" placeholder='Search Facebook' autoComplete='off' /></div>
                 </div>
                 <div className="tab">
-                    <div><AiFillHome /></div>
+                    <div><AiFillHomesasa /></div>
                     <div><FaPlay /></div>
                     <div><HiUserGroup /></div>
                     <div><SiFacebookgaming /></div>
