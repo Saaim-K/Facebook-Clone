@@ -1,3 +1,15 @@
-*{
-    color: firebrick;
+:root {
+    /* --dark-tab: #242526 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 56px;
+    background-color: var(--dark-tab);
+    border-top: 1px solid #393A3B;
+    border-bottom: 1px solid #393A3B;
 }
