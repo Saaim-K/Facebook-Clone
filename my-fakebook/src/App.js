@@ -1,10 +1,12 @@
 import './App.css';
-import Navbar from './Compnents/Navbar';
+import Body from './Compnents/Left-Sidebar';
+// import Navbar from './Compnents/Navbar';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Body />
     </div>
   );
 }
