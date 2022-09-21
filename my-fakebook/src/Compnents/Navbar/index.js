@@ -1,16 +1,10 @@
 import React from 'react'
-import './Navbar.css'
+import './index.css'
 import { MdSearch, MdOutlineOndemandVideo } from "react-icons/md";
 import { FaHome  } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi";
 import { SiFacebookgaming } from "react-icons/si";
 import { BsFillGrid3X3GapFill, BsMessenger } from "react-icons/bs";
-
-
-
-
-
-
 
 function Navbar() {
   return (
