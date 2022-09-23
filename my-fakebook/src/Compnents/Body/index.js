@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import img from '../../images/Saaim.jpg'
 import { RiLiveFill } from "react-icons/ri";
-import { GrGallery } from "react-icons/gr";
+import { FaPhotoVideo } from "react-icons/fa";
 import { MdEmojiEmotions } from "react-icons/md";
 
 export default function Body() {
@@ -12,22 +12,22 @@ export default function Body() {
 
             </div>
             <div className="createPost">
-                <div>
-                    <span> <img src={img} width='100px' alt="" /></span>
-                    <span><input type="text" /></span>
+                <div className='createPost-input-box'>
+                    <span> <img src={img} className='postImage' width='100px' alt="" /></span>
+                    <span><input type="text" className='createPost-input' placeholder="What's on your mind, Saaim?" /></span>
                 </div>
-                <div>
-                    <div>
-                        <span><RiLiveFill /></span>
-                        <span>Live Video</span>
+                <div className='createPost-button'>
+                    <div className='createPost-live'>
+                        <span className='live-icon'><RiLiveFill /></span>
+                        <span className='live-text'>Live Video</span>
                     </div>
-                    <div>
-                        <span><GrGallery /></span>
-                        <span>Photo/Video</span>
+                    <div className='createPost-gallery'>
+                        <span className='gallery-icon'><FaPhotoVideo /></span>
+                        <span className='gallery-text'>Photo/Video</span>
                     </div>
-                    <div>
-                        <span><MdEmojiEmotions /></span>
-                        <span>Feeling/Activity</span>
+                    <div className='createPost-feeling'>
+                        <span className='feeling-icon'><MdEmojiEmotions /></span>
+                        <span className='feeling-text'>Feeling/Activity</span>
                     </div>
                 </div>
             </div>
@@ -37,3 +37,5 @@ export default function Body() {
         </>
     )
 }
+
+
