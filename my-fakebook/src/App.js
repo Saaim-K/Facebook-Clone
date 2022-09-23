@@ -1,16 +1,15 @@
 import './App.css';
 import Navbar from './Compnents/Navbar';
-import LeftSidebar from './Compnents/Left-Sidebar';
-
+// import LeftSidebar from './Compnents/Left-Sidebar';
+import Body from './Compnents/Body';
 function App() {
   return (
     <div>
       <Navbar />
-      <div className='body'>
-      <LeftSidebar />
-      {/* <Post/> */}
-
-      </div>
+      <Body>
+        {/* <Post/> */}
+      </Body>
+      {/* <LeftSidebar /> */}
     </div>
   );
 }
