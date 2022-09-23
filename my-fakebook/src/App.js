@@ -7,8 +7,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Body /> */}
+      {/* <Body> */}
+      {/* <Post/> */}
+
       <LeftSidebar />
+      {/* </Body> */}
     </div>
   );
 }
