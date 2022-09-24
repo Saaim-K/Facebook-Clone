@@ -25,7 +25,6 @@ export function Stories() {
 }
 
 
-
 export function CreatePost() {
     return (
         <div className="createPost">
