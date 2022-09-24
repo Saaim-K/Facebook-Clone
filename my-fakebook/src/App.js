@@ -1,8 +1,9 @@
 import './App.css';
 import Navbar from './Compnents/Navbar';
 import LeftSidebar from './Compnents/Left-Sidebar';
-import Body from './Compnents/Body';
-function App() {
+import { CreatePost, Stories, Post } from './Compnents/Body'
+
+export default function App() {
   return (
     <div>
       <Navbar />
@@ -11,7 +12,7 @@ function App() {
           <LeftSidebar />
         </div>
         <div className='mainPost'>
-          <Body />
+          <CreatePost />
           {/* <Post/> */}
         </div>
         <div className='rightSideBar'></div>
@@ -21,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+
