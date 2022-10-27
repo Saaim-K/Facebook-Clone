@@ -1,5 +1,4 @@
-.createPost {
-    width: 620px;
+.createPost{
     height: auto;
     background-color: #3A3B3C;
     display: flex;
@@ -7,7 +6,7 @@
     padding: 5px;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 100px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .createPost-input-box {
@@ -22,18 +21,18 @@
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 10px;
-
 }
 
 .createPost-input {
     height: 40px;
-    width: 520px;
+    width: 415px;
     border-radius: 20px;
     border: none;
     font-size: 18px;
     padding-left: 10px;
     background-color: #242526;
     color: #a5aab1;
+    padding: 0px 10px;
 }
 
 .createPost-input:focus {
@@ -57,23 +56,35 @@
 }
 
 .live-icon {
-    color: rgb(223, 49, 49);
+    color: rgb(224, 69, 69);
     font-size: 30px;
     margin-right: 10px;
     margin-left: 20px;
 }
 
 .gallery-icon {
-    color: green;
+    color: rgba(71, 202, 71, 0.842);
     font-size: 30px;
     margin-right: 10px;
     margin-left: 10px;
 }
 
 .feeling-icon {
-    color: rgb(219, 219, 47);
+    color: rgba(248, 248, 0, 0.829);
     font-size: 30px;
     margin-right: 10px;
     margin-left: 10px;
+}
 
+.post {
+    height: auto;
+    background-color: #3A3B3C;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #DDDFE3;
+    letter-spacing: 1.5px;
+    font-weight: 450;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }

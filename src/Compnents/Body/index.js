@@ -9,7 +9,11 @@ export function Post() {
     return (
         <>
             <div className="post">
-
+                <div><img src={img} className='postImage' alt="" /></div>
+                <div>
+                    <span>Saaim Khan</span>
+                    <span></span>
+                </div>
             </div>
         </>
     )
