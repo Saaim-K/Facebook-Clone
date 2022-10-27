@@ -3,8 +3,9 @@
     margin: 0;
 }
 #root{
-    font-family:  Tahoma, Geneva, Verdana, sans-serif
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .body{
     background-color: #18191A;
+    display: flex;
 }

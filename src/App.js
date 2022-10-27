@@ -11,10 +11,10 @@ export default function App() {
         <div className='leftSideBar'>
           <LeftSidebar />
         </div>
-        {/* <div className='mainPost'>
+        <div className='mainPost'>
           <CreatePost />
           <Post/>
-        </div> */}
+        </div>
         <div className='rightSideBar'></div>
       </div>
 
