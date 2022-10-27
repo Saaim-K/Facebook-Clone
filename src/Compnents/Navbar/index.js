@@ -1,10 +1,10 @@
 import React from 'react'
 import './index.css'
-import { MdSearch, MdOutlineOndemandVideo } from "react-icons/md";
+import { MdOutlineOndemandVideo } from "react-icons/md";
 import { FaHome, FaUserCircle, FaBell } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi";
 import { SiFacebookgaming } from "react-icons/si";
-import { BsMessenger, BsSunFill } from "react-icons/bs";
+import { BsSearch,BsMessenger, BsSunFill } from "react-icons/bs";
 import { GiShop } from "react-icons/gi";
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
       <div className='fb-search'>
         <span className='fb-logo'><img src="https://img.icons8.com/fluency/50/000000/facebook-new.png " alt='facebook-logo' /></span>
         <span className='fb-input'>
-          <span className='fb-input-logo'><MdSearch /></span>
+          <span className='fb-input-logo'><BsSearch /></span>
           <span className='fb-input-search'><input type="text" placeholder='Search Facebook' /></span>
         </span>
       </div>
