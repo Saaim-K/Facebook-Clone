@@ -25,13 +25,7 @@ export default function LeftSidebar() {
             <div><img src={img7} alt="" className="leftSidebar-favourites" />Favourite</div>
             <div><img src={img8} alt="" className="leftSidebar-pages" />Pages</div>
             <div><img src={img9} alt="" className="leftSidebar-memories" />Memories</div>
-
-
         </div>
-
-
-
-
     )
 }
 // <div className="sidebar">

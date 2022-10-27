@@ -3,13 +3,8 @@
     margin: 0;
 }
 #root{
-    background-color: #18191A;
-    font-family:  Helvetica, sans-serif;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif
 }
 .body{
-    display: flex;
-}
-.mainPost{
-    margin-left: 100px;
-    margin-top: 20px;
+    background-color: #18191A;
 }

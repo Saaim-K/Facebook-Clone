@@ -5,20 +5,20 @@ import { CreatePost, Stories, Post } from './Compnents/Body'
 
 export default function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <div className='body'>
         <div className='leftSideBar'>
           <LeftSidebar />
         </div>
-        <div className='mainPost'>
+        {/* <div className='mainPost'>
           <CreatePost />
-          {/* <Post/> */}
-        </div>
+          <Post/>
+        </div> */}
         <div className='rightSideBar'></div>
       </div>
 
-    </div>
+    </>
   );
 }
 

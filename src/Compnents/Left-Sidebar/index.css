@@ -5,8 +5,9 @@
 }
 
 .leftSidebar div {
-    font-weight: 600;
-    margin: 20px 20px;
+    font-weight: 550;
+    padding: 10px;
+    margin: 0px 20px;
     display: flex;
     align-items: center;
 }
