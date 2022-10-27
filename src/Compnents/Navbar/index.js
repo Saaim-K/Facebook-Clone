@@ -6,6 +6,7 @@ import { HiUserGroup } from "react-icons/hi";
 import { SiFacebookgaming } from "react-icons/si";
 import { BsSearch, BsMessenger, BsSunFill } from "react-icons/bs";
 import { GiShop } from "react-icons/gi";
+import img0 from '../../images/Saaim.jpg'
 
 function Navbar() {
   return (
@@ -30,7 +31,7 @@ function Navbar() {
         <span><BsSunFill /></span>
         <span><BsMessenger /></span>
         <span><FaBell /></span>
-        <span><FaUserCircle /></span>
+        <span><img src={img0} className='profile' alt="" /></span>
       </div>
 
     </div>
