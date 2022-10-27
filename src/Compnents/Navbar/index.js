@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import { MdOutlineOndemandVideo } from "react-icons/md";
-import { FaHome, FaUserCircle, FaBell } from "react-icons/fa";
+import { FaHome, FaBell } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi";
 import { SiFacebookgaming } from "react-icons/si";
 import { BsSearch, BsMessenger, BsSunFill } from "react-icons/bs";
