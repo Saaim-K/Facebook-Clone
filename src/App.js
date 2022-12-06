@@ -17,7 +17,6 @@ export default function App() {
         </div>
         <div className='rightSideBar'></div>
       </div>
-
     </>
   );
 }
